@@ -1,0 +1,35 @@
+miniprogram/
+├── pages/
+│   ├── index/
+│   │   ├── index.js
+│   │   ├── index.json
+│   │   ├── index.wxml
+│   │   └── index.wxss
+│   ├── life/
+│   │   ├── life.js
+│   │   ├── life.json
+│   │   ├── life.wxml
+│   │   └── life.wxss
+│   ├── profile/
+│   │   ├── profile.js
+│   │   ├── profile.json
+│   │   ├── profile.wxml
+│   │   └── profile.wxss
+│   └── services/
+│       └── local/
+├── images/
+│   ├── services/
+│   │   ├── housekeeping.png
+│   │   ├── repair.png
+│   │   └── delivery.png
+│   ├── local-service.png
+│   ├── trademark.png
+│   ├── finance.png
+│   ├── legal.png
+│   ├── driving.png
+│   ├── agency.png
+│   └── proxy.png
+├── app.js
+├── app.json
+├── app.wxss
+└── project.config.json 
