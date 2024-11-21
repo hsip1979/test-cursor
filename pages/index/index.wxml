@@ -1,0 +1,33 @@
+<view class="container">
+  <!-- 本地生活服务大板块 -->
+  <button class="local-service" bindtap="navigateTo" data-page="localService" hover-class="button-hover">
+    <text class="service-title">本地生活服务</text>
+  </button>
+
+  <!-- 其他服务网格布局 -->
+  <view class="service-grid">
+    <button class="grid-item" bindtap="navigateTo" data-page="trademark" hover-class="button-hover">
+      <text>商标专利申请注册</text>
+    </button>
+    
+    <button class="grid-item" bindtap="navigateTo" data-page="finance" hover-class="button-hover">
+      <text>财务管理代报税</text>
+    </button>
+    
+    <button class="grid-item" bindtap="navigateTo" data-page="legal" hover-class="button-hover">
+      <text>法律顾问</text>
+    </button>
+    
+    <button class="grid-item" bindtap="navigateTo" data-page="drivingSchool" hover-class="button-hover">
+      <text>驾照招生</text>
+    </button>
+    
+    <button class="grid-item" bindtap="navigateTo" data-page="agency" hover-class="button-hover">
+      <text>中介市场</text>
+    </button>
+    
+    <button class="grid-item" bindtap="navigateTo" data-page="proxy" hover-class="button-hover">
+      <text>代驾代办事</text>
+    </button>
+  </view>
+</view> 

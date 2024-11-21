@@ -1,0 +1,69 @@
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-motto {
+  margin-top: 200px;
+  color: #333;
+}
+
+.container {
+  padding: 30rpx;
+}
+
+.local-service {
+  width: 100% !important;
+  height: 300rpx !important;
+  background: #1296db !important;
+  border-radius: 20rpx !important;
+  margin-bottom: 30rpx !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  color: #fff !important;
+  padding: 0 !important;
+  font-weight: normal !important;
+  line-height: normal !important;
+}
+
+.service-title {
+  font-size: 36rpx;
+  font-weight: bold;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20rpx;
+  width: 100%;
+}
+
+.grid-item {
+  background: #f5f5f5 !important;
+  border-radius: 15rpx !important;
+  padding: 30rpx !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  min-height: 200rpx !important;
+  margin: 0 !important;
+  font-weight: normal !important;
+  line-height: normal !important;
+}
+
+.grid-item text {
+  font-size: 28rpx;
+  text-align: center;
+  color: #333;
+}
+
+/* 按钮点击效果 */
+.button-hover {
+  opacity: 0.8;
+  transform: scale(0.98);
+  transition: all 0.2s ease;
+} 

@@ -1,0 +1,16 @@
+<!--pages/services/trademark/trademark.wxml-->
+<view class="service-container">
+  <view class="service-header">
+    <text class="header-title">商标专利申请注册</text>
+  </view>
+  <view class="service-list">
+    <button class="service-item" 
+            wx:for="{{services}}" 
+            wx:key="title" 
+            hover-class="button-hover"
+            bindtap="onServiceTap"
+            data-index="{{index}}">
+      <text class="item-title">{{item.title}}</text>
+    </button>
+  </view>
+</view>

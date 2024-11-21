@@ -1,0 +1,33 @@
+.service-container {
+  padding: 30rpx;
+}
+
+.service-header {
+  margin-bottom: 30rpx;
+}
+
+.header-title {
+  font-size: 36rpx;
+  font-weight: bold;
+}
+
+.service-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20rpx;
+}
+
+.service-item {
+  background: #fff;
+  padding: 30rpx;
+  border-radius: 15rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 2rpx 10rpx rgba(0,0,0,0.1);
+}
+
+.item-title {
+  font-size: 28rpx;
+  color: #333;
+} 

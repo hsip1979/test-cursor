@@ -1,0 +1,10 @@
+<view class="service-container">
+  <view class="service-header">
+    <text class="header-title">{{对应服务标题}}</text>
+  </view>
+  <view class="service-list">
+    <view class="service-item" wx:for="{{services}}" wx:key="title">
+      <text class="item-title">{{item.title}}</text>
+    </view>
+  </view>
+</view> 
